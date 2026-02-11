@@ -1,0 +1,86 @@
+.serviceContainer {
+  width: 100vw;
+  color: #000;
+  background-color: white;
+  min-height: 40px;
+  position: relative;
+}
+.serviceContents {
+  max-width: 1248px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+}
+.space {
+  width: 900px;
+}
+.text {
+  flex-grow: 1;
+
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+}
+.bodyContainer {
+  margin: 0 auto;
+  max-width: 1680px;
+  min-width: 978px;
+  overflow: hidden;
+}
+.bodyContainerStyle {
+  margin: 0 auto 16px;
+  padding: 14px 83px 0;
+  position: relative;
+}
+.content1Container {
+  display: flex;
+
+  flex-flow: row wrap;
+  margin-bottom: 14px;
+}
+.h1 {
+  display: block;
+
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.content2Container {
+  margin-top: 8px;
+  color: #878787;
+}
+.contentRow1 {
+  max-height: 560px;
+
+  font-size: 14px;
+  max-height: 545px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 25%;
+}
+.row {
+  width: 850px;
+  height: 850px;
+}
+.row1head {
+  color: #212121;
+  font-size: 12px;
+  padding: 22px 16px 0 32px;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.row1Content1 {
+  padding: 13px 48px;
+  padding-top: 13px;
+  padding-right: 48px;
+  padding-bottom: 13px;
+  color: #212121;
+  cursor: pointer;
+}

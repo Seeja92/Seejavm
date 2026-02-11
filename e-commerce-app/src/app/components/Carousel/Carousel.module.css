@@ -1,0 +1,99 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+.topdealsection {
+  height: 318px;
+
+  position: relative;
+
+  margin: 0px 16px;
+}
+.sectioncontainer {
+  height: 62px;
+  display: flex;
+
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.topdeals {
+  height: 62px;
+  flex: 1;
+  color: rgb(31, 31, 31);
+  border-width: 0px;
+  padding: 16px;
+
+  box-sizing: border-box;
+  display: flex;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  width: 100%;
+  overflow: hidden;
+  font-size: 22px;
+  font-weight: 600;
+
+  text-align: left;
+}
+
+.sectionitemscontainer {
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+
+  flex-direction: row;
+
+  flex: 1;
+  position: relative;
+  text-decoration: none;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 62px;
+  height: 256px;
+
+  justify-content: center;
+
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+  margin: 0px 0px 16px;
+}
+.sectionitems {
+  height: 256px;
+  margin-bottom: 50px;
+  left: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 16px;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sectionitems img {
+  width: 108px;
+  height: 108px;
+}
+.section-3-items img:hover {
+  width: 113px;
+  height: 113px;
+}
+.sectionitems a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+.text {
+  text-decoration: none;
+  font-size: 14px;
+}

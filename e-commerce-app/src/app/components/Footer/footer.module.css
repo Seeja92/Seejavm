@@ -1,0 +1,49 @@
+.footercontainer {
+  height: 350px;
+  
+}
+.backtotopcontainer {
+  display: flex;
+  height: 49px;
+  background-color: #2162a1;
+  justify-content: center;
+  color: white;
+ 
+}
+.footerremcontainer {
+  display: grid;
+
+  
+  padding-left: 220px;
+  padding-right: 220px;
+ 
+  height: 294px;
+  background-color: #37475a;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.aboutgrid1 {
+  margin-top: 50px;
+  display: flex;
+
+  height: 294px;
+  flex-direction: column;
+
+  margin: 10px;
+}
+
+.headtextstyle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+.childtextstyle {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.childtextstyle:hover {
+  text-decoration: underline;
+}

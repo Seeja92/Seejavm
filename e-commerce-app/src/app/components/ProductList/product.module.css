@@ -1,0 +1,19 @@
+.productlist {
+  min-height: 500px;
+  background-color: snow;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  column-gap: 10px;
+}
+.text {
+  cursor: pointer;
+}
+.btnstyle {
+  border-radius: 10px;
+  background-color: orange;
+  cursor: pointer;
+  border: none;
+}
